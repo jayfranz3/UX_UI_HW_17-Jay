@@ -1,9 +1,14 @@
 
 .inline-block {
-    display: inline; 
-    padding: 60px;
-    vertical-align: top;
-    
+    display: inline-block; 
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.inline-block li {
+    display: inline-block;
+    font-size: 25px;
 }
 
 .logo {
@@ -14,7 +19,7 @@
 
 nav {
     width:73%;
-    padding: 1%
+    padding: 1%;
 }
 
 
@@ -25,14 +30,15 @@ UL {
     
 }
 
+
 .logo {
     align-content: center;
-    
+    width: 23%;
 }
 
 
 heroImg {
-    height: 600px;
+    height: 800px;
     padding: 25px;
     
 }
@@ -47,12 +53,16 @@ heroImg {
 footer {
     background-color: #373738;
     color: aliceblue;
-    padding: 6px;
+    padding: 5px;
+    margin: auto;
+    font-size: 20px;
     align-content: center;
-    
-    
 }
 
-.inline-block li {
-    align-content: stretch;
+.navigation {
+    background-color: #373738;
+    color: aliceblue;
+    max-height: 500px;
 }
+
+
