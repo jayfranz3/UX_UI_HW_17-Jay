@@ -1,31 +1,38 @@
+/* Comment out 
 
 .inline-block {
     display: inline-block; 
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+
 
 }
-
+ 
 .inline-block li {
     display: inline-block;
     font-size: 25px;
-}
+    padding-left: 20px;
+    color:aliceblue;
+
+}*/ 
 
 .logo {
-    width: 23%;
+    float: left;
+    width: 20%;
     padding: 1%;
 
 }
 
 nav {
-    width:73%;
+    float: right;
+    width:70%;
     padding: 1%;
 }
 
 
 
 UL {
-    width: 50%;
+    width: 75%;
     margin-left: auto;
     
 }
@@ -52,7 +59,7 @@ heroImg {
 
 footer {
     background-color: #373738;
-    color: aliceblue;
+    color:aliceblue;
     padding: 5px;
     margin: auto;
     font-size: 20px;
@@ -60,9 +67,17 @@ footer {
 }
 
 .navigation {
+	display: flex;
     background-color: #373738;
-    color: aliceblue;
     max-height: 500px;
 }
 
+img {
+    display: inline-block;
+    align-content: center;
+    
+}
 
+.flex {
+	display: flex;
+}
